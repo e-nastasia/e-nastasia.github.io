@@ -24,7 +24,7 @@ Use the format `{:#?}` to signify that your value should be pretty printed when 
 
 For example, given this struct:
 
-```
+```rust
 use uuid::Uuid;
 use std::collections::HashMap;
 
@@ -46,7 +46,7 @@ fn main() {
 
 We'll see the following output:
 
-```
+```rust
 MyStruct's Debug representation: MyStruct { num_id: 42, values: {"type1": 99f39a6e-1324-4c1b-8b0b-3a85c01232b4, "type2": 86a7534d-c247-4afa-b56c-59a516ffdb57} }
 
 MyStruct's pretty Debug representation: MyStruct {
